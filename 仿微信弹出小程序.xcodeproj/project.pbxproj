@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E7005050219EA3C800A2E466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E700504F219EA3C800A2E466 /* AppDelegate.m */; };
-		E7005053219EA3C800A2E466 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7005052219EA3C800A2E466 /* ViewController.m */; };
 		E7005056219EA3C800A2E466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7005054219EA3C800A2E466 /* Main.storyboard */; };
 		E7005058219EA3CA00A2E466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7005057219EA3CA00A2E466 /* Assets.xcassets */; };
 		E700505B219EA3CA00A2E466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7005059219EA3CA00A2E466 /* LaunchScreen.storyboard */; };
 		E700505E219EA3CA00A2E466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E700505D219EA3CA00A2E466 /* main.m */; };
 		E7005068219EA3CA00A2E466 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7005067219EA3CA00A2E466 /* ________Tests.m */; };
 		E7005073219EA3CA00A2E466 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7005072219EA3CA00A2E466 /* ________UITests.m */; };
+		E72E493221A2A7BC0057E6CF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72E493121A2A7BC0057E6CF /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		E700504B219EA3C800A2E466 /* 仿微信弹出小程序.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿微信弹出小程序.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E700504E219EA3C800A2E466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E700504F219EA3C800A2E466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E7005051219EA3C800A2E466 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E7005052219EA3C800A2E466 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E7005055219EA3C800A2E466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7005057219EA3CA00A2E466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E700505A219EA3CA00A2E466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		E700506E219EA3CA00A2E466 /* 仿微信弹出小程序UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿微信弹出小程序UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7005072219EA3CA00A2E466 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		E7005074219EA3CA00A2E466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7005080219EA45E00A2E466 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E72E493121A2A7BC0057E6CF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +103,13 @@
 			children = (
 				E700504E219EA3C800A2E466 /* AppDelegate.h */,
 				E700504F219EA3C800A2E466 /* AppDelegate.m */,
-				E7005051219EA3C800A2E466 /* ViewController.h */,
-				E7005052219EA3C800A2E466 /* ViewController.m */,
 				E7005054219EA3C800A2E466 /* Main.storyboard */,
 				E7005057219EA3CA00A2E466 /* Assets.xcassets */,
 				E7005059219EA3CA00A2E466 /* LaunchScreen.storyboard */,
 				E700505C219EA3CA00A2E466 /* Info.plist */,
 				E700505D219EA3CA00A2E466 /* main.m */,
+				E7005080219EA45E00A2E466 /* FirstViewController.h */,
+				E72E493121A2A7BC0057E6CF /* FirstViewController.m */,
 			);
 			path = "仿微信弹出小程序";
 			sourceTree = "<group>";
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7005053219EA3C800A2E466 /* ViewController.m in Sources */,
 				E700505E219EA3CA00A2E466 /* main.m in Sources */,
+				E72E493221A2A7BC0057E6CF /* FirstViewController.m in Sources */,
 				E7005050219EA3C800A2E466 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
